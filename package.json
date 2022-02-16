@@ -1,7 +1,8 @@
 {
   "scripts": {
-    "eslint": "eslint src --ext .ts",
-    "eslint:fix": "eslint src --ext .ts --fix",
+    "command": "pnpm run command --filter {packages/esm}",
+    "eslint": "eslint packages --ext .js",
+    "eslint:fix": "eslint packages --ext .js --fix",
     "lint": "pnpm prettier && yarn eslint",
     "lint:fix": "pnpm package:fix && pnpm prettier:fix && pnpm eslint:fix",
     "package:fix": "format-package -w",
