@@ -4,6 +4,6 @@
   "description": "Try ESM",
   "main": "index.js",
   "scripts": {
-    "command": "node index.js"
+    "command": "node index.mjs"
   }
 }
