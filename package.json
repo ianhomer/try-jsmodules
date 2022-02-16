@@ -1,7 +1,7 @@
 {
   "name": "@try-jsmodules/root",
   "scripts": {
-    "command": "pnpm command --filter {packages/commonjs}",
+    "command": "pnpm command --filter {packages}",
     "eslint": "eslint packages --ext .js",
     "eslint:fix": "eslint packages --ext .js --fix",
     "lint": "pnpm prettier && yarn eslint",
