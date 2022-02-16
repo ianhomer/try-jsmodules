@@ -1,0 +1,9 @@
+{
+  "name": "@try-jsmodules/esm-mjs",
+  "version": "1.0.0",
+  "description": "Try ESM with mjs extension",
+  "main": "index.mjs",
+  "scripts": {
+    "command": "node index.mjs"
+  }
+}

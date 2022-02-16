@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Try ESM",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "command": "node index.mjs"
+    "command": "node index.js"
   }
 }

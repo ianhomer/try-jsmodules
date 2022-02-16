@@ -1,4 +1,4 @@
-import { timesTwo } from "./foo.mjs";
+import { timesTwo } from "./foo.js";
 
 console.log("Try ESM");
 
