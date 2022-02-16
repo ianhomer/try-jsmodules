@@ -26,4 +26,4 @@ jobs:
           pnpm lint
       - name: run command
         run: |
-          pnpm command
+          pnpm packages:command
