@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "command": "pnpm run command --filter {packages/esm}",
+    "command": "pnpm run command --filter {packages}",
     "eslint": "eslint packages --ext .js",
     "eslint:fix": "eslint packages --ext .js --fix",
     "lint": "pnpm prettier && yarn eslint",
