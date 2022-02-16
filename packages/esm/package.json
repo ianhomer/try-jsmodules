@@ -1,7 +1,7 @@
 {
-  "name": "@try-jsmodules/commonjs",
+  "name": "@try-jsmodules/esm",
   "version": "1.0.0",
-  "description": "Try CommonJS",
+  "description": "Try ESM",
   "main": "index.js",
   "scripts": {
     "command": "node index.js"
