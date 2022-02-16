@@ -1,5 +1,1 @@
-function timesTwo(number) {
-  return number + 2;
-}
-
-exports.timesTwo = timesTwo;
+exports.timesTwo = (number) => number + 2;
